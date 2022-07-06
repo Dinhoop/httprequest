@@ -42,7 +42,7 @@ class _BodyState extends State<Body> {
 
   TextEditingController _controller = TextEditingController();
 
-  final url = "https://api.hgbrasil.com/finance/quotations?key=5b3e6b86";
+  final url = "https://api.hgbrasil.com/finance/quotations?key="; //Change XXX to your Key
   double dolar = 0;
 
   Future<double> pegarCotacaoDolar()async {
